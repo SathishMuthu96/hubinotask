@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var parse = Parser()
+    var a = 10
     var personDetails = [results]()
     var firstNameArray = [String]()
     
