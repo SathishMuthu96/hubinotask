@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C255A44E25F871A00016B090 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255A44D25F871A00016B090 /* Parser.swift */; };
+		C2E9E81425F85D8A007AC0F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E81325F85D8A007AC0F5 /* AppDelegate.swift */; };
+		C2E9E81625F85D8A007AC0F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E81525F85D8A007AC0F5 /* SceneDelegate.swift */; };
+		C2E9E81825F85D8B007AC0F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E81725F85D8B007AC0F5 /* ViewController.swift */; };
+		C2E9E81B25F85D8B007AC0F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E9E81925F85D8B007AC0F5 /* Main.storyboard */; };
+		C2E9E81E25F85D8C007AC0F5 /* HubinoTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E81C25F85D8B007AC0F5 /* HubinoTask.xcdatamodeld */; };
+		C2E9E82025F85E05007AC0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E9E81F25F85E05007AC0F5 /* Assets.xcassets */; };
+		C2E9E82325F85E05007AC0F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E9E82125F85E05007AC0F5 /* LaunchScreen.storyboard */; };
+		C2E9E82E25F85E05007AC0F5 /* HubinoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E82D25F85E05007AC0F5 /* HubinoTaskUITests.swift */; };
+		C2E9E83925F86217007AC0F5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E83825F86217007AC0F5 /* TableViewCell.swift */; };
+		C2E9E83B25F8633A007AC0F5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E83A25F8633A007AC0F5 /* DetailsViewController.swift */; };
+		C2E9E83D25F86622007AC0F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E83C25F86622007AC0F5 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E9E82A25F85E05007AC0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E9E80825F85D8A007AC0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E9E80F25F85D8A007AC0F5;
+			remoteInfo = HubinoTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C255A44D25F871A00016B090 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		C2E9E81025F85D8A007AC0F5 /* HubinoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubinoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E9E81325F85D8A007AC0F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E9E81525F85D8A007AC0F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2E9E81725F85D8B007AC0F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E9E81A25F85D8B007AC0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E9E81D25F85D8B007AC0F5 /* HubinoTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HubinoTask.xcdatamodel; sourceTree = "<group>"; };
+		C2E9E81F25F85E05007AC0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E9E82225F85E05007AC0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E9E82425F85E05007AC0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E9E82925F85E05007AC0F5 /* HubinoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubinoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E9E82D25F85E05007AC0F5 /* HubinoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubinoTaskUITests.swift; sourceTree = "<group>"; };
+		C2E9E82F25F85E05007AC0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E9E83825F86217007AC0F5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C2E9E83A25F8633A007AC0F5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C2E9E83C25F86622007AC0F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E9E80D25F85D8A007AC0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E9E82625F85E05007AC0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C255A44625F86A410016B090 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E83C25F86622007AC0F5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C255A44825F870550016B090 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E81925F85D8B007AC0F5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C255A44925F870770016B090 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E81725F85D8B007AC0F5 /* ViewController.swift */,
+				C2E9E83A25F8633A007AC0F5 /* DetailsViewController.swift */,
+				C2E9E83825F86217007AC0F5 /* TableViewCell.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C255A44A25F870990016B090 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C255A44D25F871A00016B090 /* Parser.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		C2E9E80725F85D8A007AC0F5 = {
+			isa = PBXGroup;
+			children = (
+				C2E9E81225F85D8A007AC0F5 /* HubinoTask */,
+				C2E9E82C25F85E05007AC0F5 /* HubinoTaskUITests */,
+				C2E9E81125F85D8A007AC0F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E9E81125F85D8A007AC0F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E81025F85D8A007AC0F5 /* HubinoTask.app */,
+				C2E9E82925F85E05007AC0F5 /* HubinoTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E9E81225F85D8A007AC0F5 /* HubinoTask */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E81325F85D8A007AC0F5 /* AppDelegate.swift */,
+				C2E9E81525F85D8A007AC0F5 /* SceneDelegate.swift */,
+				C255A44625F86A410016B090 /* Model */,
+				C255A44A25F870990016B090 /* viewModel */,
+				C255A44925F870770016B090 /* controller */,
+				C255A44825F870550016B090 /* View */,
+				C2E9E81F25F85E05007AC0F5 /* Assets.xcassets */,
+				C2E9E82125F85E05007AC0F5 /* LaunchScreen.storyboard */,
+				C2E9E82425F85E05007AC0F5 /* Info.plist */,
+				C2E9E81C25F85D8B007AC0F5 /* HubinoTask.xcdatamodeld */,
+			);
+			path = HubinoTask;
+			sourceTree = "<group>";
+		};
+		C2E9E82C25F85E05007AC0F5 /* HubinoTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E82D25F85E05007AC0F5 /* HubinoTaskUITests.swift */,
+				C2E9E82F25F85E05007AC0F5 /* Info.plist */,
+			);
+			path = HubinoTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E9E80F25F85D8A007AC0F5 /* HubinoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E9E83225F85E05007AC0F5 /* Build configuration list for PBXNativeTarget "HubinoTask" */;
+			buildPhases = (
+				C2E9E80C25F85D8A007AC0F5 /* Sources */,
+				C2E9E80D25F85D8A007AC0F5 /* Frameworks */,
+				C2E9E80E25F85D8A007AC0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HubinoTask;
+			productName = HubinoTask;
+			productReference = C2E9E81025F85D8A007AC0F5 /* HubinoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E9E82825F85E05007AC0F5 /* HubinoTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E9E83525F85E05007AC0F5 /* Build configuration list for PBXNativeTarget "HubinoTaskUITests" */;
+			buildPhases = (
+				C2E9E82525F85E05007AC0F5 /* Sources */,
+				C2E9E82625F85E05007AC0F5 /* Frameworks */,
+				C2E9E82725F85E05007AC0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E9E82B25F85E05007AC0F5 /* PBXTargetDependency */,
+			);
+			name = HubinoTaskUITests;
+			productName = HubinoTaskUITests;
+			productReference = C2E9E82925F85E05007AC0F5 /* HubinoTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E9E80825F85D8A007AC0F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Greens;
+				TargetAttributes = {
+					C2E9E80F25F85D8A007AC0F5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C2E9E82825F85E05007AC0F5 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C2E9E80F25F85D8A007AC0F5;
+					};
+				};
+			};
+			buildConfigurationList = C2E9E80B25F85D8A007AC0F5 /* Build configuration list for PBXProject "HubinoTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E9E80725F85D8A007AC0F5;
+			productRefGroup = C2E9E81125F85D8A007AC0F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E9E80F25F85D8A007AC0F5 /* HubinoTask */,
+				C2E9E82825F85E05007AC0F5 /* HubinoTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E9E80E25F85D8A007AC0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E9E82325F85E05007AC0F5 /* LaunchScreen.storyboard in Resources */,
+				C2E9E82025F85E05007AC0F5 /* Assets.xcassets in Resources */,
+				C2E9E81B25F85D8B007AC0F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E9E82725F85E05007AC0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E9E80C25F85D8A007AC0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E9E83925F86217007AC0F5 /* TableViewCell.swift in Sources */,
+				C2E9E81825F85D8B007AC0F5 /* ViewController.swift in Sources */,
+				C2E9E81425F85D8A007AC0F5 /* AppDelegate.swift in Sources */,
+				C2E9E81625F85D8A007AC0F5 /* SceneDelegate.swift in Sources */,
+				C255A44E25F871A00016B090 /* Parser.swift in Sources */,
+				C2E9E81E25F85D8C007AC0F5 /* HubinoTask.xcdatamodeld in Sources */,
+				C2E9E83B25F8633A007AC0F5 /* DetailsViewController.swift in Sources */,
+				C2E9E83D25F86622007AC0F5 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E9E82525F85E05007AC0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E9E82E25F85E05007AC0F5 /* HubinoTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E9E82B25F85E05007AC0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E9E80F25F85D8A007AC0F5 /* HubinoTask */;
+			targetProxy = C2E9E82A25F85E05007AC0F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E9E81925F85D8B007AC0F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E9E81A25F85D8B007AC0F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E9E82125F85E05007AC0F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E9E82225F85E05007AC0F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E9E83025F85E05007AC0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E9E83125F85E05007AC0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E9E83325F85E05007AC0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HubinoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greens.HubinoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E9E83425F85E05007AC0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HubinoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greens.HubinoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2E9E83625F85E05007AC0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HubinoTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greens.HubinoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HubinoTask;
+			};
+			name = Debug;
+		};
+		C2E9E83725F85E05007AC0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HubinoTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greens.HubinoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HubinoTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E9E80B25F85D8A007AC0F5 /* Build configuration list for PBXProject "HubinoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E9E83025F85E05007AC0F5 /* Debug */,
+				C2E9E83125F85E05007AC0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E9E83225F85E05007AC0F5 /* Build configuration list for PBXNativeTarget "HubinoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E9E83325F85E05007AC0F5 /* Debug */,
+				C2E9E83425F85E05007AC0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E9E83525F85E05007AC0F5 /* Build configuration list for PBXNativeTarget "HubinoTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E9E83625F85E05007AC0F5 /* Debug */,
+				C2E9E83725F85E05007AC0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2E9E81C25F85D8B007AC0F5 /* HubinoTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2E9E81D25F85D8B007AC0F5 /* HubinoTask.xcdatamodel */,
+			);
+			currentVersion = C2E9E81D25F85D8B007AC0F5 /* HubinoTask.xcdatamodel */;
+			path = HubinoTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2E9E80825F85D8A007AC0F5 /* Project object */;
+}
