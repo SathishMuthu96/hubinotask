@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var parse = Parser()
+    var b = 10
     var personDetails = [results]()
     var firstNameArray = [String]()
     
@@ -70,7 +71,7 @@ func saveData() {
        try context.save()
    } catch{}
     print("*****Data Saved******")
-     print(datasaved)
+    // print(datasaved)
 }
 }
 
